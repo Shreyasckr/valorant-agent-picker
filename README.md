@@ -1,3 +1,3 @@
 # personal-projects
-bullshit kisu
+google thekay ke
 comfy-sprite-c88f78.netlify.app
