@@ -7,20 +7,20 @@ public class AgentPicker{
         String[] sentinels  = {"Sage", "Cypher", "Killjoy", "Chamber", "Deadlock", "Vyse", "Veto"};
         String[] controllers = {"Brimstone", "Viper", "Omen", "Astra", "Harbor", "Clove", "Miks"};
         Random random = new Random();
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("VALORANT AGENT PICKER\n");
         System.out.println("Select a role:\n"+"1. Duelist\n"+"2. Initiator\n"+"3. Sentinel\n"+"4. Controller\n");
         System.out.print("\nEnter your choice (1-4): ");
-        String choice = scanner.nextLine();
+        String choice = sc.nextLine();
         String selectedAgent = null;
         if(choice.equals("1")){
             selectedAgent = duelists[random.nextInt(duelists.length)];
         } 
-        else if (choice.equals("2")){
+        else if(choice.equals("2")){
             selectedAgent = initiators[random.nextInt(initiators.length)];
         }
-        else if (choice.equals("3")){
+        else if(choice.equals("3")){
             selectedAgent = sentinels[random.nextInt(sentinels.length)];
         } 
         else if(choice.equals("4")){
@@ -30,7 +30,7 @@ public class AgentPicker{
             System.out.println("Khankirpola 1-4 er moddhe choose kor.");
         }
 
-        if (selectedAgent != null) {
+        if(selectedAgent != null){
             System.out.println("\nYour agent: " + selectedAgent);
         }
     }
