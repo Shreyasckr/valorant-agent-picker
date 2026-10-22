@@ -2,10 +2,10 @@ import java.util.Random;
 import java.util.Scanner;
 public class AgentPicker{
     public static void main(String[] args){
-        String[] duelists   = {"Phoenix", "Reyna", "Jett", "Raze", "Yoru", "Neon", "Iso", "Waylay", "Hush"};
-        String[] initiators = {"Sova", "Breach", "Skye", "KAY/O", "Fade", "Gekko", "Tejo"};
-        String[] sentinels  = {"Sage", "Cypher", "Killjoy", "Chamber", "Deadlock", "Vyse", "Veto"};
-        String[] controllers = {"Brimstone", "Viper", "Omen", "Astra", "Harbor", "Clove", "Miks"};
+        String[] duelists   = {"Phoenix", "Reyna", "Jett", "Raze", "Yoru", "Neon", "Iso", "Waylay", "Hush"}; //9
+        String[] initiators = {"Sova", "Breach", "Skye", "KAY/O", "Fade", "Gekko", "Tejo"};                  //7
+        String[] sentinels  = {"Sage", "Cypher", "Killjoy", "Chamber", "Deadlock", "Vyse", "Veto"};          //7
+        String[] controllers = {"Brimstone", "Viper", "Omen", "Astra", "Harbor", "Clove", "Miks"};           //7
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
 
