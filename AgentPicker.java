@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 public class AgentPicker{
     public static void main(String[] args){
-        String[] duelists   = {"Phoenix", "Reyna", "Jett", "Raze", "Yoru", "Neon", "Iso", "Waylay"};
+        String[] duelists   = {"Phoenix", "Reyna", "Jett", "Raze", "Yoru", "Neon", "Iso", "Waylay", "Hush"};
         String[] initiators = {"Sova", "Breach", "Skye", "KAY/O", "Fade", "Gekko", "Tejo"};
         String[] sentinels  = {"Sage", "Cypher", "Killjoy", "Chamber", "Deadlock", "Vyse", "Veto"};
         String[] controllers = {"Brimstone", "Viper", "Omen", "Astra", "Harbor", "Clove", "Miks"};
